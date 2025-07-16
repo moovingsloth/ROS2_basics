@@ -1,0 +1,14 @@
+[01m[K/home/sloth/ros2_clean_ws/src/my_cpp_pkg/src/robot_news_station.cpp:13:10:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[KpublishNews[m[K’ declared void
+   13 |     void [01;31m[KpublishNews[m[K
+      |          [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/sloth/ros2_clean_ws/src/my_cpp_pkg/src/robot_news_station.cpp:18:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   18 |     [01;31m[K}[m[K
+      |     [01;31m[K^[m[K
+      |      [32m[K;[m[K
+[01m[K/home/sloth/ros2_clean_ws/src/my_cpp_pkg/src/robot_news_station.cpp:22:13:[m[K [01;31m[Kerror: [m[K‘[01m[KBase[m[K’ in namespace ‘[01m[Krclcpp[m[K’ does not name a type
+   22 |     rclcpp::[01;31m[KBase[m[K
+      |             [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/robot_news_station.dir/build.make:76: CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/robot_news_station.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

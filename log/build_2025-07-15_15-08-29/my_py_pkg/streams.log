@@ -1,0 +1,39 @@
+[0.320s] Invoking command in '/home/sloth/ros2_clean_ws/build/my_py_pkg': PYTHONPATH=/home/sloth/ros2_clean_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sloth/ros2_clean_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/sloth/ros2_clean_ws/build/my_py_pkg/build
+[0.455s] running develop
+[0.522s] Removing /home/sloth/ros2_clean_ws/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)
+[0.534s] Invoked command in '/home/sloth/ros2_clean_ws/build/my_py_pkg' returned '0': PYTHONPATH=/home/sloth/ros2_clean_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sloth/ros2_clean_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/sloth/ros2_clean_ws/build/my_py_pkg/build
+[0.535s] Invoking command in '/home/sloth/ros2_clean_ws/my_py_pkg': PYTHONPATH=/home/sloth/ros2_clean_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sloth/ros2_clean_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_py_pkg build --build-base /home/sloth/ros2_clean_ws/build/my_py_pkg/build install --record /home/sloth/ros2_clean_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data --force
+[0.649s] running egg_info
+[0.649s] writing ../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[0.649s] writing dependency_links to ../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[0.649s] writing entry points to ../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[0.650s] writing requirements to ../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[0.650s] writing top-level names to ../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[0.650s] reading manifest file '../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.651s] writing manifest file '../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.651s] running build
+[0.651s] running build_py
+[0.651s] copying my_py_pkg/smartphone.py -> /home/sloth/ros2_clean_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.651s] copying my_py_pkg/robot_news_station.py -> /home/sloth/ros2_clean_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.651s] copying my_py_pkg/template_python_node.py -> /home/sloth/ros2_clean_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.651s] running install
+[0.652s] running install_lib
+[0.652s] creating /home/sloth/ros2_clean_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[0.652s] copying /home/sloth/ros2_clean_ws/build/my_py_pkg/build/lib/my_py_pkg/smartphone.py -> /home/sloth/ros2_clean_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[0.652s] copying /home/sloth/ros2_clean_ws/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/sloth/ros2_clean_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[0.652s] copying /home/sloth/ros2_clean_ws/build/my_py_pkg/build/lib/my_py_pkg/robot_news_station.py -> /home/sloth/ros2_clean_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[0.652s] copying /home/sloth/ros2_clean_ws/build/my_py_pkg/build/lib/my_py_pkg/template_python_node.py -> /home/sloth/ros2_clean_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[0.652s] byte-compiling /home/sloth/ros2_clean_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/smartphone.py to smartphone.cpython-310.pyc
+[0.653s] byte-compiling /home/sloth/ros2_clean_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__init__.py to __init__.cpython-310.pyc
+[0.653s] byte-compiling /home/sloth/ros2_clean_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/robot_news_station.py to robot_news_station.cpython-310.pyc
+[0.653s] byte-compiling /home/sloth/ros2_clean_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/template_python_node.py to template_python_node.cpython-310.pyc
+[0.653s] running install_data
+[0.653s] copying resource/my_py_pkg -> /home/sloth/ros2_clean_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[0.653s] copying package.xml -> /home/sloth/ros2_clean_ws/install/my_py_pkg/share/my_py_pkg
+[0.653s] running install_egg_info
+[0.654s] Copying ../build/my_py_pkg/my_py_pkg.egg-info to /home/sloth/ros2_clean_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[0.655s] running install_scripts
+[0.664s] Installing robot_news_station script to /home/sloth/ros2_clean_ws/install/my_py_pkg/lib/my_py_pkg
+[0.664s] Installing smartphone script to /home/sloth/ros2_clean_ws/install/my_py_pkg/lib/my_py_pkg
+[0.664s] writing list of installed files to '/home/sloth/ros2_clean_ws/build/my_py_pkg/install.log'
+[0.675s] Invoked command in '/home/sloth/ros2_clean_ws/my_py_pkg' returned '0': PYTHONPATH=/home/sloth/ros2_clean_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sloth/ros2_clean_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_py_pkg build --build-base /home/sloth/ros2_clean_ws/build/my_py_pkg/build install --record /home/sloth/ros2_clean_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data --force

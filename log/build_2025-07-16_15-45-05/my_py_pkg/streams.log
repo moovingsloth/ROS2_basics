@@ -1,0 +1,20 @@
+[0.324s] Invoking command in '/home/sloth/ros2_clean_ws/build/my_py_pkg': PYTHONPATH=/home/sloth/ros2_clean_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sloth/ros2_clean_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sloth/ros2_clean_ws/build/my_py_pkg/build --no-deps symlink_data
+[0.455s] running develop
+[0.527s] running egg_info
+[0.527s] writing my_py_pkg.egg-info/PKG-INFO
+[0.527s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[0.527s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[0.527s] writing requirements to my_py_pkg.egg-info/requires.txt
+[0.527s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[0.528s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[0.528s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[0.529s] running build_ext
+[0.530s] Creating /home/sloth/ros2_clean_ws/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)
+[0.530s] Installing number_counter script to /home/sloth/ros2_clean_ws/install/my_py_pkg/lib/my_py_pkg
+[0.530s] Installing number_publisher script to /home/sloth/ros2_clean_ws/install/my_py_pkg/lib/my_py_pkg
+[0.530s] Installing robot_news_station script to /home/sloth/ros2_clean_ws/install/my_py_pkg/lib/my_py_pkg
+[0.530s] Installing smartphone script to /home/sloth/ros2_clean_ws/install/my_py_pkg/lib/my_py_pkg
+[0.530s] 
+[0.530s] Installed /home/sloth/ros2_clean_ws/build/my_py_pkg
+[0.530s] running symlink_data
+[0.545s] Invoked command in '/home/sloth/ros2_clean_ws/build/my_py_pkg' returned '0': PYTHONPATH=/home/sloth/ros2_clean_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sloth/ros2_clean_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sloth/ros2_clean_ws/build/my_py_pkg/build --no-deps symlink_data

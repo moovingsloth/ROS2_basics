@@ -1,0 +1,8 @@
+{
+    "cmake.sourceDirectory": "/home/sloth/ros2_clean_ws/src/my_cpp_pkg",
+    "files.associations": {
+        "array": "cpp",
+        "string": "cpp",
+        "string_view": "cpp"
+    }
+}
