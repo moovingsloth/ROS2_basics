@@ -1,0 +1,59 @@
+[35m[1mConsolidate compiler generated dependencies of target add_two_ints_server[0m
+[ 50%] Built target my_node
+[ 75%] [32mBuilding CXX object CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o[0m
+[01m[K/home/dongwon_serer/ros_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:22:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kshared_ptr[m[K’ in ‘[01m[Kclass rclcpp::Service<example_interfaces::srv::AddTwoInts>[m[K’ does not name a type
+   22 |     rclcpp::Service<example_interfaces::srv::AddTwoInts>::[01;31m[Kshared_ptr[m[K server_;
+      |                                                           [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/dongwon_serer/ros_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:[m[K In constructor ‘[01m[KAddTwoIntsServerNode::AddTwoIntsServerNode()[m[K’:
+[01m[K/home/dongwon_serer/ros_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:10:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kserver_[m[K’ was not declared in this scope
+   10 |             [01;31m[Kserver_[m[K = this -> create_service<example_interfaces::srv::AddTwoInts>("add_two_ints", std::bind(&AddTwoIntsServerNode::callbackAddTwoInts, this, _1, _2));
+      |             [01;31m[K^~~~~~~[m[K
+[01m[K/home/dongwon_serer/ros_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:10:132:[m[K [01;31m[Kerror: [m[K‘[01m[KcallbackAddTwoInts[m[K’ is not a member of ‘[01m[KAddTwoIntsServerNode[m[K’
+   10 |             server_ = this -> create_service<example_interfaces::srv::AddTwoInts>("add_two_ints", std::bind(&AddTwoIntsServerNode::[01;31m[KcallbackAddTwoInts[m[K, this, _1, _2));
+      |                                                                                                                                    [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dongwon_serer/ros_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:13:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   13 |         [01;31m[K}[m[K
+      |         [01;31m[K^[m[K
+[01m[K/home/dongwon_serer/ros_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/dongwon_serer/ros_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:27:34:[m[K [01;31m[Kerror: [m[K‘[01m[KAddTwoIntsServer[m[K’ was not declared in this scope; did you mean ‘[01m[KAddTwoIntsServerNode[m[K’?
+   27 |     auto node = std::make_shared<[01;31m[KAddTwoIntsServer[m[K>();
+      |                                  [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |                                  [32m[KAddTwoIntsServerNode[m[K
+[01m[K/home/dongwon_serer/ros_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:27:51:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+   27 |     auto node = [01;31m[Kstd::make_shared<AddTwoIntsServer>()[m[K;
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/dongwon_serer/ros_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+  875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/dongwon_serer/ros_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:27:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   27 |     auto node = [01;31m[Kstd::make_shared<AddTwoIntsServer>()[m[K;
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/dongwon_serer/ros_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:28:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclrpp[m[K’ has not been declared
+   28 |     [01;31m[Krclrpp[m[K::spin(node);
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/dongwon_serer/ros_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:29:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kshutdown[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::shutdown[m[K’?
+   29 |     rclcpp:[01;31m[Kshutdown[m[K();
+      |            [01;31m[K^~~~~~~~[m[K
+      |            [32m[Krclcpp::shutdown[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/dongwon_serer/ros_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/utilities.hpp:194:1:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::shutdown[m[K’ declared here
+  194 | [01;36m[Kshutdown[m[K(
+      | [01;36m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/add_two_ints_server.dir/build.make:76: CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/add_two_ints_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

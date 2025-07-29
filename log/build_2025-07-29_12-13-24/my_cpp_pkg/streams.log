@@ -1,0 +1,28 @@
+[0.008s] Invoking command in '/home/dongwon_serer/ros_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dongwon_serer/ros_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/dongwon_serer/ros_ws/build/my_cpp_pkg -- -j8 -l8
+[0.044s] [35m[1mConsolidate compiler generated dependencies of target add_two_ints_server[0m
+[0.055s] [ 50%] Built target my_node
+[0.058s] [ 75%] [32mBuilding CXX object CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o[0m
+[2.736s] [100%] [32m[1mLinking CXX executable add_two_ints_server[0m
+[2.919s] [100%] Built target add_two_ints_server
+[2.930s] Invoked command in '/home/dongwon_serer/ros_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dongwon_serer/ros_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/dongwon_serer/ros_ws/build/my_cpp_pkg -- -j8 -l8
+[2.938s] Invoking command in '/home/dongwon_serer/ros_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dongwon_serer/ros_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/dongwon_serer/ros_ws/build/my_cpp_pkg
+[2.945s] -- Install configuration: ""
+[2.946s] -- Up-to-date: /home/dongwon_serer/ros_ws/install/my_cpp_pkg/lib/my_cpp_pkg/my_node
+[2.946s] -- Installing: /home/dongwon_serer/ros_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server
+[2.947s] -- Set runtime path of "/home/dongwon_serer/ros_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server" to ""
+[2.947s] -- Installing: /home/dongwon_serer/ros_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[2.948s] -- Installing: /home/dongwon_serer/ros_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[2.948s] -- Up-to-date: /home/dongwon_serer/ros_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[2.949s] -- Installing: /home/dongwon_serer/ros_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[2.949s] -- Up-to-date: /home/dongwon_serer/ros_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[2.949s] -- Installing: /home/dongwon_serer/ros_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[2.949s] -- Up-to-date: /home/dongwon_serer/ros_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[2.950s] -- Up-to-date: /home/dongwon_serer/ros_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[2.950s] -- Up-to-date: /home/dongwon_serer/ros_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[2.950s] -- Installing: /home/dongwon_serer/ros_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[2.950s] -- Installing: /home/dongwon_serer/ros_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[2.950s] -- Up-to-date: /home/dongwon_serer/ros_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[2.951s] -- Up-to-date: /home/dongwon_serer/ros_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[2.951s] -- Up-to-date: /home/dongwon_serer/ros_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[2.951s] -- Installing: /home/dongwon_serer/ros_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[2.953s] Invoked command in '/home/dongwon_serer/ros_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dongwon_serer/ros_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/dongwon_serer/ros_ws/build/my_cpp_pkg

@@ -1,0 +1,12 @@
+[0.009s] Invoking command in '/home/dongwon_serer/ros_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dongwon_serer/ros_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/dongwon_serer/ros_ws/build/my_cpp_pkg -- -j8 -l8
+[0.044s] [35m[1mConsolidate compiler generated dependencies of target add_two_ints_server[0m
+[0.055s] [ 50%] Built target my_node
+[0.059s] [ 75%] [32mBuilding CXX object CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o[0m
+[1.894s] [01m[K/home/dongwon_serer/ros_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:[m[K In constructor ‘[01m[KAddTwoIntsServerNode::AddTwoIntsServerNode()[m[K’:
+[1.894s] [01m[K/home/dongwon_serer/ros_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:13:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[1.894s]    13 |         [01;31m[K}[m[K;
+[1.894s]       |         [01;31m[K^[m[K
+[2.360s] gmake[2]: *** [CMakeFiles/add_two_ints_server.dir/build.make:76: CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o] Error 1
+[2.361s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/add_two_ints_server.dir/all] Error 2
+[2.361s] gmake: *** [Makefile:146: all] Error 2
+[2.363s] Invoked command in '/home/dongwon_serer/ros_ws/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dongwon_serer/ros_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/dongwon_serer/ros_ws/build/my_cpp_pkg -- -j8 -l8
