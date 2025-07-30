@@ -1,0 +1,34 @@
+[0.013s] Invoking command in '/home/dongwon_serer/ros_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dongwon_serer/ros_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/dongwon_serer/ros_ws/build/my_cpp_pkg -- -j8 -l8
+[0.093s] [35m[1mConsolidate compiler generated dependencies of target add_two_ints_client[0m
+[0.104s] [ 50%] Built target add_two_ints_client_no_oop
+[0.104s] [ 62%] Built target my_node
+[0.104s] [ 75%] Built target add_two_ints_server
+[0.107s] [ 87%] [32mBuilding CXX object CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o[0m
+[2.038s] [01m[K/home/dongwon_serer/ros_ws/src/my_cpp_pkg/src/add_two_ints_client.cpp:34:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[2.038s]    34 | }
+[2.038s]       |  [01;31m[K^[m[K
+[2.039s]       |  [32m[K;[m[K
+[2.044s] [01m[K/home/dongwon_serer/ros_ws/src/my_cpp_pkg/src/add_two_ints_client.cpp:[m[K In member function ‘[01m[Kvoid AddTwoIntsClientNode::callAddTwoInts(int, int)[m[K’:
+[2.044s] [01m[K/home/dongwon_serer/ros_ws/src/my_cpp_pkg/src/add_two_ints_client.cpp:25:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[2.044s]    25 |     [01;31m[K}[m[K
+[2.044s]       |     [01;31m[K^[m[K
+[2.049s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.049s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.049s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.049s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.049s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.049s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.049s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.049s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.049s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.049s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.049s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.049s]                  from [01m[K/home/dongwon_serer/ros_ws/src/my_cpp_pkg/src/add_two_ints_client.cpp:1[m[K:
+[2.049s] [01m[K/home/dongwon_serer/ros_ws/src/my_cpp_pkg/src/add_two_ints_client.cpp:[m[K In member function ‘[01m[Kvoid AddTwoIntsClientNode::callbackCallAddTwoInts(rclcpp::Client<example_interfaces::srv::AddTwoInts>::SharedFuture)[m[K’:
+[2.050s] [01m[K/home/dongwon_serer/ros_ws/src/my_cpp_pkg/src/add_two_ints_client.cpp:30:60:[m[K [01;31m[Kerror: [m[K‘[01m[Krequest[m[K’ was not declared in this scope
+[2.050s]    30 |         RCLCPP_INFO(this->get_logger(), "%ld + %ld = %ld", [01;31m[Krequest[m[K->a, request->b, response->sum);
+[2.050s]       |                                                            [01;31m[K^~~~~~~[m[K
+[2.502s] gmake[2]: *** [CMakeFiles/add_two_ints_client.dir/build.make:76: CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o] Error 1
+[2.502s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/add_two_ints_client.dir/all] Error 2
+[2.502s] gmake: *** [Makefile:146: all] Error 2
+[2.505s] Invoked command in '/home/dongwon_serer/ros_ws/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dongwon_serer/ros_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/dongwon_serer/ros_ws/build/my_cpp_pkg -- -j8 -l8

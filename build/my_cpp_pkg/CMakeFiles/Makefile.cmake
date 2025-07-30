@@ -684,4 +684,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/my_cpp_pkg_uninstall.dir/DependInfo.cmake"
   "CMakeFiles/my_node.dir/DependInfo.cmake"
   "CMakeFiles/add_two_ints_server.dir/DependInfo.cmake"
+  "CMakeFiles/add_two_ints_client_no_oop.dir/DependInfo.cmake"
+  "CMakeFiles/add_two_ints_client.dir/DependInfo.cmake"
   )

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/dongwon_serer/ros_ws/build/cpp_prac_pkg/number_publisher" "/home/dongwon_serer/ros_ws/build/cpp_prac_pkg/number_counter" "TARGETS" "number_publisher" "number_counter" "DESTINATION" "lib/cpp_prac_pkg")

@@ -1,0 +1,107 @@
+[01m[K/home/dongwon_serer/ros_ws/src/cpp_prac_pkg/src/number_counter.cpp:2:10:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+    2 | #include [01;35m[K"[m[Kexample_interfaces/srv/add_two_ints.hpp
+      |          [01;35m[K^[m[K
+[01m[K/home/dongwon_serer/ros_ws/src/cpp_prac_pkg/src/number_counter.cpp:2:10:[m[K [01;31m[Kerror: [m[K#include expects "FILENAME" or <FILENAME>
+    2 | #include [01;31m[K"example_interfaces/srv/add_two_ints.hpp[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dongwon_serer/ros_ws/src/cpp_prac_pkg/src/number_counter.cpp:16:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kexample_interfaces[m[K’ does not name a type
+   16 |     void callbackNumber(const [01;31m[Kexample_interfaces[m[K::msg::Int64::SharedPtr msg)
+      |                               [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dongwon_serer/ros_ws/src/cpp_prac_pkg/src/number_counter.cpp:16:54:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+   16 |     void callbackNumber(const example_interfaces::msg[01;31m[K::[m[KInt64::SharedPtr msg)
+      |                                                      [01;31m[K^~[m[K
+[01m[K/home/dongwon_serer/ros_ws/src/cpp_prac_pkg/src/number_counter.cpp:16:54:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+   16 |     void callbackNumber[34m[K([m[Kconst example_interfaces::msg[01;31m[K:[m[K[32m[K:[m[KInt64::SharedPtr msg)
+      |                        [34m[K~[m[K                             [01;31m[K^[m[K[32m[K~[m[K
+      |                                                      [32m[K)[m[K
+[01m[K/home/dongwon_serer/ros_ws/src/cpp_prac_pkg/src/number_counter.cpp:16:51:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   16 |     void callbackNumber(const example_interfaces::[01;31m[Kmsg[m[K::Int64::SharedPtr msg)
+      |                                                   [01;31m[K^~~[m[K
+      |                                                      [32m[K;[m[K
+[01m[K/home/dongwon_serer/ros_ws/src/cpp_prac_pkg/src/number_counter.cpp:16:56:[m[K [01;31m[Kerror: [m[K‘[01m[KInt64[m[K’ in namespace ‘[01m[K::[m[K’ does not name a type
+   16 |     void callbackNumber(const example_interfaces::msg::[01;31m[KInt64[m[K::SharedPtr msg)
+      |                                                        [01;31m[K^~~~~[m[K
+[01m[K/home/dongwon_serer/ros_ws/src/cpp_prac_pkg/src/number_counter.cpp:25:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kexample_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+   25 |     rclcpp::Publisher<[01;31m[Kexample_interfaces[m[K::msg::Int64>::SharedPtr counter_publisher_;
+      |                       [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |                       [32m[Krcl_interfaces[m[K
+[01m[K/home/dongwon_serer/ros_ws/src/cpp_prac_pkg/src/number_counter.cpp:25:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   25 |     rclcpp::Publisher<example_interfaces::msg::Int64[01;31m[K>[m[K::SharedPtr counter_publisher_;
+      |                                                     [01;31m[K^[m[K
+[01m[K/home/dongwon_serer/ros_ws/src/cpp_prac_pkg/src/number_counter.cpp:25:56:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   25 |     rclcpp::Publisher<example_interfaces::msg::Int64>::[01;31m[KSharedPtr[m[K counter_publisher_;
+      |                                                        [01;31m[K^~~~~~~~~[m[K
+      |                                                                 [32m[K;[m[K
+[01m[K/home/dongwon_serer/ros_ws/src/cpp_prac_pkg/src/number_counter.cpp:25:66:[m[K [01;31m[Kerror: [m[K‘[01m[Kcounter_publisher_[m[K’ does not name a type
+   25 |     rclcpp::Publisher<example_interfaces::msg::Int64>::SharedPtr [01;31m[Kcounter_publisher_[m[K;
+      |                                                                  [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dongwon_serer/ros_ws/src/cpp_prac_pkg/src/number_counter.cpp:26:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kexample_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+   26 |     rclcpp::Subscription<[01;31m[Kexample_interfaces[m[K::msg::Int64>::SharedPtr number_subscriber_;
+      |                          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |                          [32m[Krcl_interfaces[m[K
+[01m[K/home/dongwon_serer/ros_ws/src/cpp_prac_pkg/src/number_counter.cpp:26:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   26 |     rclcpp::Subscription<example_interfaces::msg::Int64[01;31m[K>[m[K::SharedPtr number_subscriber_;
+      |                                                        [01;31m[K^[m[K
+[01m[K/home/dongwon_serer/ros_ws/src/cpp_prac_pkg/src/number_counter.cpp:26:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/dongwon_serer/ros_ws/src/cpp_prac_pkg/src/number_counter.cpp:26:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/dongwon_serer/ros_ws/src/cpp_prac_pkg/src/number_counter.cpp:26:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/dongwon_serer/ros_ws/src/cpp_prac_pkg/src/number_counter.cpp:26:59:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   26 |     rclcpp::Subscription<example_interfaces::msg::Int64>::[01;31m[KSharedPtr[m[K number_subscriber_;
+      |                                                           [01;31m[K^~~~~~~~~[m[K
+      |                                                                    [32m[K;[m[K
+[01m[K/home/dongwon_serer/ros_ws/src/cpp_prac_pkg/src/number_counter.cpp:26:59:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint NumberCounterNode::SharedPtr[m[K’
+[01m[K/home/dongwon_serer/ros_ws/src/cpp_prac_pkg/src/number_counter.cpp:25:56:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint NumberCounterNode::SharedPtr[m[K’
+   25 |     rclcpp::Publisher<example_interfaces::msg::Int64>::[01;36m[KSharedPtr[m[K counter_publisher_;
+      |                                                        [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/dongwon_serer/ros_ws/src/cpp_prac_pkg/src/number_counter.cpp:26:69:[m[K [01;31m[Kerror: [m[K‘[01m[Knumber_subscriber_[m[K’ does not name a type
+   26 |     rclcpp::Subscription<example_interfaces::msg::Int64>::SharedPtr [01;31m[Knumber_subscriber_[m[K;
+      |                                                                     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dongwon_serer/ros_ws/src/cpp_prac_pkg/src/number_counter.cpp:[m[K In constructor ‘[01m[KNumberCounterNode::NumberCounterNode()[m[K’:
+[01m[K/home/dongwon_serer/ros_ws/src/cpp_prac_pkg/src/number_counter.cpp:9:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcounter_publisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcount_publishers[m[K’?
+    9 |         [01;31m[Kcounter_publisher_[m[K = this->create_publisher<example_interfaces::msg::Int64>("number_count", 10);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |         [32m[Kcount_publishers[m[K
+[01m[K/home/dongwon_serer/ros_ws/src/cpp_prac_pkg/src/number_counter.cpp:9:53:[m[K [01;31m[Kerror: [m[K‘[01m[Kexample_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+    9 |         counter_publisher_ = this->create_publisher<[01;31m[Kexample_interfaces[m[K::msg::Int64>("number_count", 10);
+      |                                                     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |                                                     [32m[Krcl_interfaces[m[K
+[01m[K/home/dongwon_serer/ros_ws/src/cpp_prac_pkg/src/number_counter.cpp:9:36:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+    9 |         counter_publisher_ = this->[01;31m[Kcreate_publisher<example_interfaces::msg::Int64>[m[K("number_count", 10);
+      |                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dongwon_serer/ros_ws/src/cpp_prac_pkg/src/number_counter.cpp:9:84:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KNumberCounterNode::create_publisher<<expression error> >(const char [13], int)[m[K’
+    9 |         counter_publisher_ = [01;31m[Kthis->create_publisher<example_interfaces::msg::Int64>("number_count", 10)[m[K;
+      |                              [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/dongwon_serer/ros_ws/src/cpp_prac_pkg/src/number_counter.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  195 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/dongwon_serer/ros_ws/src/cpp_prac_pkg/src/number_counter.cpp:9:84:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+    9 |         counter_publisher_ = [01;31m[Kthis->create_publisher<example_interfaces::msg::Int64>("number_count", 10)[m[K;
+      |                              [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dongwon_serer/ros_ws/src/cpp_prac_pkg/src/number_counter.cpp:10:9:[m[K [01;31m[Kerror: [m[K‘[01m[Knumber_subscriber_[m[K’ was not declared in this scope
+   10 |         [01;31m[Knumber_subscriber_[m[K = this->create_subscription<example_interfaces::msg::Int64>(
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dongwon_serer/ros_ws/src/cpp_prac_pkg/src/number_counter.cpp:10:36:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   10 |         number_subscriber_ = this->[01;31m[Kcreate_subscription<example_interfaces::msg::Int64>[m[K(
+      |                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dongwon_serer/ros_ws/src/cpp_prac_pkg/src/number_counter.cpp:11:79:[m[K [01;31m[Kerror: [m[K‘[01m[K_1[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::placeholders::_1[m[K’?
+   11 |             "number", 10, std::bind(&NumberCounterNode::callbackNumber, this, [01;31m[K_1[m[K)
+      |                                                                               [01;31m[K^~[m[K
+      |                                                                               [32m[Kstd::placeholders::_1[m[K
+In file included from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/dongwon_serer/ros_ws/src/cpp_prac_pkg/src/number_counter.cpp:1[m[K:
+[01m[K/usr/include/c++/11/functional:225:34:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::placeholders::_1[m[K’ declared here
+  225 |     extern const _Placeholder<1> [01;36m[K_1[m[K;
+      |                                  [01;36m[K^~[m[K
+gmake[2]: *** [CMakeFiles/number_counter.dir/build.make:76: CMakeFiles/number_counter.dir/src/number_counter.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/number_counter.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

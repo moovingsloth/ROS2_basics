@@ -1,0 +1,5 @@
+[35m[1mConsolidate compiler generated dependencies of target number_counter[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/number_publisher.dir/src/number_publisher.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/number_counter.dir/src/number_counter.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable number_counter[0m
+[ 75%] Built target number_counter

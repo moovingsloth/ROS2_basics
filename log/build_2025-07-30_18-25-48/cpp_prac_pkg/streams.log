@@ -1,0 +1,52 @@
+[0.012s] Invoking command in '/home/dongwon_serer/ros_ws/build/cpp_prac_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dongwon_serer/ros_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/dongwon_serer/ros_ws/src/cpp_prac_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dongwon_serer/ros_ws/install/cpp_prac_pkg
+[0.170s] -- The C compiler identification is GNU 11.4.0
+[0.408s] -- The CXX compiler identification is GNU 11.4.0
+[0.538s] -- Detecting C compiler ABI info
+[0.632s] -- Detecting C compiler ABI info - done
+[0.637s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.638s] -- Detecting C compile features
+[0.638s] -- Detecting C compile features - done
+[0.641s] -- Detecting CXX compiler ABI info
+[0.739s] -- Detecting CXX compiler ABI info - done
+[0.744s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.744s] -- Detecting CXX compile features
+[0.744s] -- Detecting CXX compile features - done
+[0.757s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.872s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.923s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.956s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[1.053s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.058s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.067s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.083s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.099s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.146s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.149s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.704s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.228s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.192s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.217s] -- Looking for pthread.h
+[3.315s] -- Looking for pthread.h - found
+[3.316s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.403s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.404s] -- Found Threads: TRUE  
+[3.916s] [31mCMake Error at CMakeLists.txt:11 (find_package):
+[3.916s]   By not providing "Findstd_msg.cmake" in CMAKE_MODULE_PATH this project has
+[3.916s]   asked CMake to find a package configuration file provided by "std_msg", but
+[3.916s]   CMake did not find one.
+[3.916s] 
+[3.916s]   Could not find a package configuration file provided by "std_msg" with any
+[3.916s]   of the following names:
+[3.916s] 
+[3.916s]     std_msgConfig.cmake
+[3.916s]     std_msg-config.cmake
+[3.916s] 
+[3.916s]   Add the installation prefix of "std_msg" to CMAKE_PREFIX_PATH or set
+[3.916s]   "std_msg_DIR" to a directory containing one of the above files.  If
+[3.916s]   "std_msg" provides a separate development package or SDK, be sure it has
+[3.916s]   been installed.
+[3.916s] 
+[3.916s] [0m
+[3.916s] -- Configuring incomplete, errors occurred!
+[3.916s] See also "/home/dongwon_serer/ros_ws/build/cpp_prac_pkg/CMakeFiles/CMakeOutput.log".
+[3.924s] Invoked command in '/home/dongwon_serer/ros_ws/build/cpp_prac_pkg' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dongwon_serer/ros_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/dongwon_serer/ros_ws/src/cpp_prac_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dongwon_serer/ros_ws/install/cpp_prac_pkg

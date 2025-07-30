@@ -7,7 +7,7 @@ class AddTwoIntsServerNode : public rclcpp::Node
 public:
         AddTwoIntsServerNode(): Node("add_two_ints_server")
         {
-            server_ = this -> create_service<example_interfaces::srv::AddTwoInts>("add_two_ints", std::bind(&AddTwoIntsServerNode::callbackAddTwoInts, this, _1, _2));
+             server_ = this -> create_service<example_interfaces::srv::AddTwoInts>("add_two_ints", std::bind(&AddTwoIntsServerNode::callbackAddTwoInts, this, _1, _2));
             RCLCPP_INFO(this->get_logger(), "Add Two Ints Server has been started.");
         }
 private:

@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target number_publisher[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/number_publisher.dir/src/number_publisher.cpp.o[0m
+[100%] [32m[1mLinking CXX executable number_publisher[0m
+[100%] Built target number_publisher
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/dongwon_serer/ros_ws/install/cpp_prac_pkg/lib/cpp_prac_pkg/number_publisher
+-- Symlinking: /home/dongwon_serer/ros_ws/install/cpp_prac_pkg/share/ament_index/resource_index/package_run_dependencies/cpp_prac_pkg
+-- Symlinking: /home/dongwon_serer/ros_ws/install/cpp_prac_pkg/share/ament_index/resource_index/parent_prefix_path/cpp_prac_pkg
+-- Symlinking: /home/dongwon_serer/ros_ws/install/cpp_prac_pkg/share/cpp_prac_pkg/environment/ament_prefix_path.sh
+-- Symlinking: /home/dongwon_serer/ros_ws/install/cpp_prac_pkg/share/cpp_prac_pkg/environment/ament_prefix_path.dsv
+-- Symlinking: /home/dongwon_serer/ros_ws/install/cpp_prac_pkg/share/cpp_prac_pkg/environment/path.sh
+-- Symlinking: /home/dongwon_serer/ros_ws/install/cpp_prac_pkg/share/cpp_prac_pkg/environment/path.dsv
+-- Symlinking: /home/dongwon_serer/ros_ws/install/cpp_prac_pkg/share/cpp_prac_pkg/local_setup.bash
+-- Symlinking: /home/dongwon_serer/ros_ws/install/cpp_prac_pkg/share/cpp_prac_pkg/local_setup.sh
+-- Symlinking: /home/dongwon_serer/ros_ws/install/cpp_prac_pkg/share/cpp_prac_pkg/local_setup.zsh
+-- Symlinking: /home/dongwon_serer/ros_ws/install/cpp_prac_pkg/share/cpp_prac_pkg/local_setup.dsv
+-- Symlinking: /home/dongwon_serer/ros_ws/install/cpp_prac_pkg/share/cpp_prac_pkg/package.dsv
+-- Symlinking: /home/dongwon_serer/ros_ws/install/cpp_prac_pkg/share/ament_index/resource_index/packages/cpp_prac_pkg
+-- Symlinking: /home/dongwon_serer/ros_ws/install/cpp_prac_pkg/share/cpp_prac_pkg/cmake/cpp_prac_pkgConfig.cmake
+-- Symlinking: /home/dongwon_serer/ros_ws/install/cpp_prac_pkg/share/cpp_prac_pkg/cmake/cpp_prac_pkgConfig-version.cmake
+-- Symlinking: /home/dongwon_serer/ros_ws/install/cpp_prac_pkg/share/cpp_prac_pkg/package.xml

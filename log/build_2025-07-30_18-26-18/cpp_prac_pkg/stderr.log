@@ -1,0 +1,7 @@
+[01m[K/home/dongwon_serer/ros_ws/src/cpp_prac_pkg/src/number_publisher.cpp:[m[K In constructor ‘[01m[KNumberPublisherNode::NumberPublisherNode()[m[K’:
+[01m[K/home/dongwon_serer/ros_ws/src/cpp_prac_pkg/src/number_publisher.cpp:12:83:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K,[m[K’ token
+   12 |         number_timer_ = this->create_wall_timer(1s, std::bind(&NumberPublisherNode[01;31m[K,[m[K this->callbackPublishNumber, this));
+      |                                                                                   [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/number_publisher.dir/build.make:76: CMakeFiles/number_publisher.dir/src/number_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/number_publisher.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

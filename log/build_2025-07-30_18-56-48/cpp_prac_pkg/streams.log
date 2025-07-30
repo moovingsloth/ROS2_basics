@@ -1,0 +1,15 @@
+[0.011s] Invoking command in '/home/dongwon_serer/ros_ws/build/cpp_prac_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dongwon_serer/ros_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/dongwon_serer/ros_ws/build/cpp_prac_pkg -- -j8 -l8
+[0.085s] [35m[1mConsolidate compiler generated dependencies of target number_counter[0m
+[0.095s] [ 25%] [32mBuilding CXX object CMakeFiles/number_publisher.dir/src/number_publisher.cpp.o[0m
+[0.100s] [ 50%] [32mBuilding CXX object CMakeFiles/number_counter.dir/src/number_counter.cpp.o[0m
+[2.102s] [01m[K/home/dongwon_serer/ros_ws/src/cpp_prac_pkg/src/number_publisher.cpp:[m[K In member function ‘[01m[Kvoid NumberPublisherNode::publishNumber()[m[K’:
+[2.102s] [01m[K/home/dongwon_serer/ros_ws/src/cpp_prac_pkg/src/number_publisher.cpp:21:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kself[m[K’ was not declared in this scope
+[2.102s]    21 |         msg.data = [01;31m[Kself[m[K.number_;
+[2.102s]       |                    [01;31m[K^~~~[m[K
+[2.737s] gmake[2]: *** [CMakeFiles/number_publisher.dir/build.make:76: CMakeFiles/number_publisher.dir/src/number_publisher.cpp.o] Error 1
+[2.737s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/number_publisher.dir/all] Error 2
+[2.737s] gmake[1]: *** Waiting for unfinished jobs....
+[6.122s] [ 75%] [32m[1mLinking CXX executable number_counter[0m
+[6.428s] [ 75%] Built target number_counter
+[6.429s] gmake: *** [Makefile:146: all] Error 2
+[6.432s] Invoked command in '/home/dongwon_serer/ros_ws/build/cpp_prac_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dongwon_serer/ros_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/dongwon_serer/ros_ws/build/cpp_prac_pkg -- -j8 -l8
