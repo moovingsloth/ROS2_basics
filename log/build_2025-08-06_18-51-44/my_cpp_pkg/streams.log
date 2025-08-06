@@ -1,0 +1,34 @@
+[0.044s] Invoking command in '/home/dongwon_serer/ros_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dongwon_serer/ros_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/dongwon_serer/ros_ws/build/my_cpp_pkg -- -j8 -l8
+[0.122s] [35m[1mConsolidate compiler generated dependencies of target hardware_status_publisher[0m
+[0.134s] [ 40%] Built target my_node
+[0.135s] [ 40%] Built target add_two_ints_client_no_oop
+[0.135s] [ 60%] Built target add_two_ints_server
+[0.135s] [ 80%] Built target add_two_ints_client
+[0.138s] [ 90%] [32mBuilding CXX object CMakeFiles/hardware_status_publisher.dir/src/hardware_status_publisher.cpp.o[0m
+[3.508s] [100%] [32m[1mLinking CXX executable hardware_status_publisher[0m
+[3.701s] [100%] Built target hardware_status_publisher
+[3.712s] Invoked command in '/home/dongwon_serer/ros_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dongwon_serer/ros_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/dongwon_serer/ros_ws/build/my_cpp_pkg -- -j8 -l8
+[3.721s] Invoking command in '/home/dongwon_serer/ros_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dongwon_serer/ros_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/dongwon_serer/ros_ws/build/my_cpp_pkg
+[3.727s] -- Install configuration: ""
+[3.728s] -- Execute custom install script
+[3.729s] -- Up-to-date symlink: /home/dongwon_serer/ros_ws/install/my_cpp_pkg/lib/my_cpp_pkg/my_node
+[3.729s] -- Up-to-date symlink: /home/dongwon_serer/ros_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server
+[3.729s] -- Up-to-date symlink: /home/dongwon_serer/ros_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_no_oop
+[3.730s] -- Up-to-date symlink: /home/dongwon_serer/ros_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client
+[3.730s] -- Symlinking: /home/dongwon_serer/ros_ws/install/my_cpp_pkg/lib/my_cpp_pkg/hardware_status_publisher
+[3.738s] -- Up-to-date symlink: /home/dongwon_serer/ros_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[3.738s] -- Up-to-date symlink: /home/dongwon_serer/ros_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[3.739s] -- Up-to-date symlink: /home/dongwon_serer/ros_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[3.739s] -- Up-to-date symlink: /home/dongwon_serer/ros_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[3.739s] -- Up-to-date symlink: /home/dongwon_serer/ros_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[3.740s] -- Up-to-date symlink: /home/dongwon_serer/ros_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[3.740s] -- Up-to-date symlink: /home/dongwon_serer/ros_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[3.740s] -- Up-to-date symlink: /home/dongwon_serer/ros_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[3.740s] -- Up-to-date symlink: /home/dongwon_serer/ros_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[3.741s] -- Up-to-date symlink: /home/dongwon_serer/ros_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[3.741s] -- Symlinking: /home/dongwon_serer/ros_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[3.749s] -- Up-to-date symlink: /home/dongwon_serer/ros_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[3.749s] -- Up-to-date symlink: /home/dongwon_serer/ros_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[3.749s] -- Up-to-date symlink: /home/dongwon_serer/ros_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[3.749s] -- Up-to-date symlink: /home/dongwon_serer/ros_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[3.751s] Invoked command in '/home/dongwon_serer/ros_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dongwon_serer/ros_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/dongwon_serer/ros_ws/build/my_cpp_pkg

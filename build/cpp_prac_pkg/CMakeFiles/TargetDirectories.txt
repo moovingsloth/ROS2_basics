@@ -1,7 +1,6 @@
 /home/dongwon_serer/ros_ws/build/cpp_prac_pkg/CMakeFiles/uninstall.dir
 /home/dongwon_serer/ros_ws/build/cpp_prac_pkg/CMakeFiles/cpp_prac_pkg_uninstall.dir
 /home/dongwon_serer/ros_ws/build/cpp_prac_pkg/CMakeFiles/number_publisher.dir
-/home/dongwon_serer/ros_ws/build/cpp_prac_pkg/CMakeFiles/number_counter.dir
 /home/dongwon_serer/ros_ws/build/cpp_prac_pkg/CMakeFiles/test.dir
 /home/dongwon_serer/ros_ws/build/cpp_prac_pkg/CMakeFiles/edit_cache.dir
 /home/dongwon_serer/ros_ws/build/cpp_prac_pkg/CMakeFiles/rebuild_cache.dir

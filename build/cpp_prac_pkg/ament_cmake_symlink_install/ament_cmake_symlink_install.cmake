@@ -310,7 +310,7 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install("TARGETS" "number_publisher" "number_counter" "DESTINATION" "lib/cpp_prac_pkg")
+# install("TARGETS" "number_publisher" "DESTINATION" "lib/cpp_prac_pkg")
 include("/home/dongwon_serer/ros_ws/build/cpp_prac_pkg/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(FILES "/home/dongwon_serer/ros_ws/build/cpp_prac_pkg/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/cpp_prac_pkg" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

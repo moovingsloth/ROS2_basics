@@ -1,1 +1,0 @@
-/home/dongwon_serer/ros_ws/my_py_pkg/setup.py

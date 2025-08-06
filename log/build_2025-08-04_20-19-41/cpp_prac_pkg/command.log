@@ -1,0 +1,2 @@
+Invoking command in '/home/dongwon_serer/ros_ws/build/cpp_prac_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dongwon_serer/ros_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/dongwon_serer/ros_ws/build/cpp_prac_pkg -- -j8 -l8
+Invoked command in '/home/dongwon_serer/ros_ws/build/cpp_prac_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dongwon_serer/ros_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/dongwon_serer/ros_ws/build/cpp_prac_pkg -- -j8 -l8

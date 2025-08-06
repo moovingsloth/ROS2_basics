@@ -249,6 +249,19 @@ add_two_ints_client/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/add_two_ints_client.dir/build.make CMakeFiles/add_two_ints_client.dir/build
 .PHONY : add_two_ints_client/fast
 
+#=============================================================================
+# Target rules for targets named hardware_status_publisher
+
+# Build rule for target.
+hardware_status_publisher: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hardware_status_publisher
+.PHONY : hardware_status_publisher
+
+# fast build rule for target.
+hardware_status_publisher/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hardware_status_publisher.dir/build.make CMakeFiles/hardware_status_publisher.dir/build
+.PHONY : hardware_status_publisher/fast
+
 src/add_two_ints_client.o: src/add_two_ints_client.cpp.o
 .PHONY : src/add_two_ints_client.o
 
@@ -321,6 +334,30 @@ src/add_two_ints_server.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/add_two_ints_server.dir/build.make CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.s
 .PHONY : src/add_two_ints_server.cpp.s
 
+src/hardware_status_publisher.o: src/hardware_status_publisher.cpp.o
+.PHONY : src/hardware_status_publisher.o
+
+# target to build an object file
+src/hardware_status_publisher.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hardware_status_publisher.dir/build.make CMakeFiles/hardware_status_publisher.dir/src/hardware_status_publisher.cpp.o
+.PHONY : src/hardware_status_publisher.cpp.o
+
+src/hardware_status_publisher.i: src/hardware_status_publisher.cpp.i
+.PHONY : src/hardware_status_publisher.i
+
+# target to preprocess a source file
+src/hardware_status_publisher.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hardware_status_publisher.dir/build.make CMakeFiles/hardware_status_publisher.dir/src/hardware_status_publisher.cpp.i
+.PHONY : src/hardware_status_publisher.cpp.i
+
+src/hardware_status_publisher.s: src/hardware_status_publisher.cpp.s
+.PHONY : src/hardware_status_publisher.s
+
+# target to generate assembly for a file
+src/hardware_status_publisher.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hardware_status_publisher.dir/build.make CMakeFiles/hardware_status_publisher.dir/src/hardware_status_publisher.cpp.s
+.PHONY : src/hardware_status_publisher.cpp.s
+
 src/my_node.o: src/my_node.cpp.o
 .PHONY : src/my_node.o
 
@@ -363,6 +400,7 @@ help:
 	@echo "... add_two_ints_client"
 	@echo "... add_two_ints_client_no_oop"
 	@echo "... add_two_ints_server"
+	@echo "... hardware_status_publisher"
 	@echo "... my_node"
 	@echo "... src/add_two_ints_client.o"
 	@echo "... src/add_two_ints_client.i"
@@ -373,6 +411,9 @@ help:
 	@echo "... src/add_two_ints_server.o"
 	@echo "... src/add_two_ints_server.i"
 	@echo "... src/add_two_ints_server.s"
+	@echo "... src/hardware_status_publisher.o"
+	@echo "... src/hardware_status_publisher.i"
+	@echo "... src/hardware_status_publisher.s"
 	@echo "... src/my_node.o"
 	@echo "... src/my_node.i"
 	@echo "... src/my_node.s"

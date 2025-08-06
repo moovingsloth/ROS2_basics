@@ -1,0 +1,21 @@
+{
+  "configurations": [
+    {
+      "name": "ROS2 Humble",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "/opt/ros/humble/include/**",
+        "/usr/include/**",
+        "/home/dongwon_serer/ros_ws/install/my_robot_interfaces/include/**"
+      ],
+      "defines": [
+        "EIGEN_MPL2_ONLY"  // Eigen 사용 시 필요할 수 있음
+      ],
+      "compilerPath": "/usr/bin/g++",
+      "cStandard": "c11",
+      "cppStandard": "c++17",
+      "intelliSenseMode": "linux-gcc-x64"
+    }
+  ],
+  "version": 4
+}

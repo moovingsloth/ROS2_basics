@@ -1,0 +1,4 @@
+[31mCMake Error at CMakeLists.txt:8 (find_packages):
+  Unknown CMake command "find_packages".
+
+[0m

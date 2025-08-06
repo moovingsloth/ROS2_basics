@@ -1,0 +1,112 @@
+[0.000000] (-) TimerEvent: {}
+[0.000307] (-) JobUnselected: {'identifier': 'my_cpp_pkg'}
+[0.000359] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.000397] (cpp_prac_pkg) JobQueued: {'identifier': 'cpp_prac_pkg', 'dependencies': OrderedDict()}
+[0.000433] (cpp_prac_pkg) JobStarted: {'identifier': 'cpp_prac_pkg'}
+[0.006283] (cpp_prac_pkg) JobProgress: {'identifier': 'cpp_prac_pkg', 'progress': 'cmake'}
+[0.006745] (cpp_prac_pkg) JobProgress: {'identifier': 'cpp_prac_pkg', 'progress': 'build'}
+[0.007365] (cpp_prac_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dongwon_serer/ros_ws/build/cpp_prac_pkg', '--', '-j8', '-l8'], 'cwd': '/home/dongwon_serer/ros_ws/build/cpp_prac_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dongwon_serer'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.9/lib64'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/dongwon_serer'), ('OLDPWD', '/home/dongwon_serer'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/dongwon_serer/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dongwon_serer'), ('NAME', 'DESKTOP-B20A7JV'), ('WSL_INTEROP', '/run/WSL/301_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.9/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Users/이동원/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/이동원/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/이동원/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', '192.168.0.2:0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/dongwon_serer/ros_ws/install/my_py_pkg:/home/dongwon_serer/ros_ws/install/my_cpp_pkg:/home/dongwon_serer/ros_ws/install/cpp_prac_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/dongwon_serer/ros_ws/build/cpp_prac_pkg'), ('CUDA_HOME', '/usr/local/cuda-12.9'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dongwon_serer/ros_ws/build/my_py_pkg:/home/dongwon_serer/ros_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/dongwon_serer/ros_ws/install/my_cpp_pkg:/home/dongwon_serer/ros_ws/install/cpp_prac_pkg:/home/dongwon_serer/ros_ws/install/my_py_pkg:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.059967] (cpp_prac_pkg) StdoutLine: {'line': b'[ 50%] Built target number_publisher\n'}
+[0.060177] (cpp_prac_pkg) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/number_counter.dir/src/number_counter.cpp.o\x1b[0m\n'}
+[0.099213] (-) TimerEvent: {}
+[0.199913] (-) TimerEvent: {}
+[0.300714] (-) TimerEvent: {}
+[0.401609] (-) TimerEvent: {}
+[0.502892] (-) TimerEvent: {}
+[0.603638] (-) TimerEvent: {}
+[0.704421] (-) TimerEvent: {}
+[0.805271] (-) TimerEvent: {}
+[0.908198] (-) TimerEvent: {}
+[1.012737] (-) TimerEvent: {}
+[1.119018] (-) TimerEvent: {}
+[1.227707] (-) TimerEvent: {}
+[1.336397] (-) TimerEvent: {}
+[1.444611] (-) TimerEvent: {}
+[1.553304] (-) TimerEvent: {}
+[1.658253] (-) TimerEvent: {}
+[1.766935] (-) TimerEvent: {}
+[1.875633] (-) TimerEvent: {}
+[1.984336] (-) TimerEvent: {}
+[2.093039] (-) TimerEvent: {}
+[2.201734] (-) TimerEvent: {}
+[2.310427] (-) TimerEvent: {}
+[2.419149] (-) TimerEvent: {}
+[2.519574] (-) TimerEvent: {}
+[2.620188] (-) TimerEvent: {}
+[2.721025] (-) TimerEvent: {}
+[2.822122] (-) TimerEvent: {}
+[2.922630] (-) TimerEvent: {}
+[3.023077] (-) TimerEvent: {}
+[3.124163] (-) TimerEvent: {}
+[3.225106] (-) TimerEvent: {}
+[3.325746] (-) TimerEvent: {}
+[3.434426] (-) TimerEvent: {}
+[3.537833] (-) TimerEvent: {}
+[3.646598] (-) TimerEvent: {}
+[3.755342] (-) TimerEvent: {}
+[3.859317] (-) TimerEvent: {}
+[3.968031] (-) TimerEvent: {}
+[4.076802] (-) TimerEvent: {}
+[4.185533] (-) TimerEvent: {}
+[4.294243] (-) TimerEvent: {}
+[4.400827] (-) TimerEvent: {}
+[4.509584] (-) TimerEvent: {}
+[4.618290] (-) TimerEvent: {}
+[4.727016] (-) TimerEvent: {}
+[4.835743] (-) TimerEvent: {}
+[4.943898] (-) TimerEvent: {}
+[5.052614] (-) TimerEvent: {}
+[5.161313] (-) TimerEvent: {}
+[5.270066] (-) TimerEvent: {}
+[5.378764] (-) TimerEvent: {}
+[5.487444] (-) TimerEvent: {}
+[5.596137] (-) TimerEvent: {}
+[5.704828] (-) TimerEvent: {}
+[5.813535] (-) TimerEvent: {}
+[5.922248] (-) TimerEvent: {}
+[6.022704] (-) TimerEvent: {}
+[6.131410] (-) TimerEvent: {}
+[6.240159] (-) TimerEvent: {}
+[6.348923] (-) TimerEvent: {}
+[6.457656] (-) TimerEvent: {}
+[6.566340] (-) TimerEvent: {}
+[6.675025] (-) TimerEvent: {}
+[6.783703] (-) TimerEvent: {}
+[6.892393] (-) TimerEvent: {}
+[7.001093] (-) TimerEvent: {}
+[7.105479] (-) TimerEvent: {}
+[7.214311] (-) TimerEvent: {}
+[7.323064] (-) TimerEvent: {}
+[7.425807] (-) TimerEvent: {}
+[7.526381] (-) TimerEvent: {}
+[7.533261] (cpp_prac_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable number_counter\x1b[0m\n'}
+[7.629921] (-) TimerEvent: {}
+[7.738838] (-) TimerEvent: {}
+[7.847666] (-) TimerEvent: {}
+[7.934082] (cpp_prac_pkg) StdoutLine: {'line': b'[100%] Built target number_counter\n'}
+[7.946447] (cpp_prac_pkg) CommandEnded: {'returncode': 0}
+[7.947498] (cpp_prac_pkg) JobProgress: {'identifier': 'cpp_prac_pkg', 'progress': 'install'}
+[7.947769] (-) TimerEvent: {}
+[7.958103] (cpp_prac_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dongwon_serer/ros_ws/build/cpp_prac_pkg'], 'cwd': '/home/dongwon_serer/ros_ws/build/cpp_prac_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dongwon_serer'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.9/lib64'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/dongwon_serer'), ('OLDPWD', '/home/dongwon_serer'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/dongwon_serer/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dongwon_serer'), ('NAME', 'DESKTOP-B20A7JV'), ('WSL_INTEROP', '/run/WSL/301_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.9/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Users/이동원/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/이동원/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/이동원/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', '192.168.0.2:0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/dongwon_serer/ros_ws/install/my_py_pkg:/home/dongwon_serer/ros_ws/install/my_cpp_pkg:/home/dongwon_serer/ros_ws/install/cpp_prac_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/dongwon_serer/ros_ws/build/cpp_prac_pkg'), ('CUDA_HOME', '/usr/local/cuda-12.9'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dongwon_serer/ros_ws/build/my_py_pkg:/home/dongwon_serer/ros_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/dongwon_serer/ros_ws/install/my_cpp_pkg:/home/dongwon_serer/ros_ws/install/cpp_prac_pkg:/home/dongwon_serer/ros_ws/install/my_py_pkg:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[7.965690] (cpp_prac_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.966524] (cpp_prac_pkg) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[7.967050] (cpp_prac_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dongwon_serer/ros_ws/install/cpp_prac_pkg/lib/cpp_prac_pkg/number_publisher\n'}
+[7.967211] (cpp_prac_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dongwon_serer/ros_ws/install/cpp_prac_pkg/lib/cpp_prac_pkg/number_counter\n'}
+[7.967394] (cpp_prac_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dongwon_serer/ros_ws/install/cpp_prac_pkg/share/ament_index/resource_index/package_run_dependencies/cpp_prac_pkg\n'}
+[7.967566] (cpp_prac_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dongwon_serer/ros_ws/install/cpp_prac_pkg/share/ament_index/resource_index/parent_prefix_path/cpp_prac_pkg\n'}
+[7.967732] (cpp_prac_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dongwon_serer/ros_ws/install/cpp_prac_pkg/share/cpp_prac_pkg/environment/ament_prefix_path.sh\n'}
+[7.967872] (cpp_prac_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dongwon_serer/ros_ws/install/cpp_prac_pkg/share/cpp_prac_pkg/environment/ament_prefix_path.dsv\n'}
+[7.968019] (cpp_prac_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dongwon_serer/ros_ws/install/cpp_prac_pkg/share/cpp_prac_pkg/environment/path.sh\n'}
+[7.968143] (cpp_prac_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dongwon_serer/ros_ws/install/cpp_prac_pkg/share/cpp_prac_pkg/environment/path.dsv\n'}
+[7.968287] (cpp_prac_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dongwon_serer/ros_ws/install/cpp_prac_pkg/share/cpp_prac_pkg/local_setup.bash\n'}
+[7.968425] (cpp_prac_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dongwon_serer/ros_ws/install/cpp_prac_pkg/share/cpp_prac_pkg/local_setup.sh\n'}
+[7.968553] (cpp_prac_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dongwon_serer/ros_ws/install/cpp_prac_pkg/share/cpp_prac_pkg/local_setup.zsh\n'}
+[7.968700] (cpp_prac_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dongwon_serer/ros_ws/install/cpp_prac_pkg/share/cpp_prac_pkg/local_setup.dsv\n'}
+[7.968821] (cpp_prac_pkg) StdoutLine: {'line': b'-- Symlinking: /home/dongwon_serer/ros_ws/install/cpp_prac_pkg/share/cpp_prac_pkg/package.dsv\n'}
+[7.978938] (cpp_prac_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dongwon_serer/ros_ws/install/cpp_prac_pkg/share/ament_index/resource_index/packages/cpp_prac_pkg\n'}
+[7.979162] (cpp_prac_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dongwon_serer/ros_ws/install/cpp_prac_pkg/share/cpp_prac_pkg/cmake/cpp_prac_pkgConfig.cmake\n'}
+[7.979291] (cpp_prac_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dongwon_serer/ros_ws/install/cpp_prac_pkg/share/cpp_prac_pkg/cmake/cpp_prac_pkgConfig-version.cmake\n'}
+[7.979393] (cpp_prac_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dongwon_serer/ros_ws/install/cpp_prac_pkg/share/cpp_prac_pkg/package.xml\n'}
+[7.981549] (cpp_prac_pkg) CommandEnded: {'returncode': 0}
+[7.994125] (cpp_prac_pkg) JobEnded: {'identifier': 'cpp_prac_pkg', 'rc': 0}
+[7.994890] (-) EventReactorShutdown: {}

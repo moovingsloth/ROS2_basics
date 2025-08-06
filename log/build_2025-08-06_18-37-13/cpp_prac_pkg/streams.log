@@ -1,0 +1,25 @@
+[0.012s] Invoking command in '/home/dongwon_serer/ros_ws/build/cpp_prac_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dongwon_serer/ros_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/dongwon_serer/ros_ws/build/cpp_prac_pkg -- -j8 -l8
+[0.058s] [ 50%] Built target number_publisher
+[0.058s] [100%] Built target number_counter
+[0.071s] Invoked command in '/home/dongwon_serer/ros_ws/build/cpp_prac_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dongwon_serer/ros_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/dongwon_serer/ros_ws/build/cpp_prac_pkg -- -j8 -l8
+[0.079s] Invoking command in '/home/dongwon_serer/ros_ws/build/cpp_prac_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dongwon_serer/ros_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/dongwon_serer/ros_ws/build/cpp_prac_pkg
+[0.084s] -- Install configuration: ""
+[0.085s] -- Execute custom install script
+[0.086s] -- Up-to-date symlink: /home/dongwon_serer/ros_ws/install/cpp_prac_pkg/lib/cpp_prac_pkg/number_publisher
+[0.086s] -- Up-to-date symlink: /home/dongwon_serer/ros_ws/install/cpp_prac_pkg/lib/cpp_prac_pkg/number_counter
+[0.086s] -- Up-to-date symlink: /home/dongwon_serer/ros_ws/install/cpp_prac_pkg/share/ament_index/resource_index/package_run_dependencies/cpp_prac_pkg
+[0.086s] -- Up-to-date symlink: /home/dongwon_serer/ros_ws/install/cpp_prac_pkg/share/ament_index/resource_index/parent_prefix_path/cpp_prac_pkg
+[0.087s] -- Up-to-date symlink: /home/dongwon_serer/ros_ws/install/cpp_prac_pkg/share/cpp_prac_pkg/environment/ament_prefix_path.sh
+[0.087s] -- Up-to-date symlink: /home/dongwon_serer/ros_ws/install/cpp_prac_pkg/share/cpp_prac_pkg/environment/ament_prefix_path.dsv
+[0.087s] -- Up-to-date symlink: /home/dongwon_serer/ros_ws/install/cpp_prac_pkg/share/cpp_prac_pkg/environment/path.sh
+[0.087s] -- Up-to-date symlink: /home/dongwon_serer/ros_ws/install/cpp_prac_pkg/share/cpp_prac_pkg/environment/path.dsv
+[0.088s] -- Up-to-date symlink: /home/dongwon_serer/ros_ws/install/cpp_prac_pkg/share/cpp_prac_pkg/local_setup.bash
+[0.088s] -- Up-to-date symlink: /home/dongwon_serer/ros_ws/install/cpp_prac_pkg/share/cpp_prac_pkg/local_setup.sh
+[0.088s] -- Up-to-date symlink: /home/dongwon_serer/ros_ws/install/cpp_prac_pkg/share/cpp_prac_pkg/local_setup.zsh
+[0.089s] -- Up-to-date symlink: /home/dongwon_serer/ros_ws/install/cpp_prac_pkg/share/cpp_prac_pkg/local_setup.dsv
+[0.089s] -- Symlinking: /home/dongwon_serer/ros_ws/install/cpp_prac_pkg/share/cpp_prac_pkg/package.dsv
+[0.097s] -- Up-to-date symlink: /home/dongwon_serer/ros_ws/install/cpp_prac_pkg/share/ament_index/resource_index/packages/cpp_prac_pkg
+[0.098s] -- Up-to-date symlink: /home/dongwon_serer/ros_ws/install/cpp_prac_pkg/share/cpp_prac_pkg/cmake/cpp_prac_pkgConfig.cmake
+[0.098s] -- Up-to-date symlink: /home/dongwon_serer/ros_ws/install/cpp_prac_pkg/share/cpp_prac_pkg/cmake/cpp_prac_pkgConfig-version.cmake
+[0.098s] -- Up-to-date symlink: /home/dongwon_serer/ros_ws/install/cpp_prac_pkg/share/cpp_prac_pkg/package.xml
+[0.100s] Invoked command in '/home/dongwon_serer/ros_ws/build/cpp_prac_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dongwon_serer/ros_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/dongwon_serer/ros_ws/build/cpp_prac_pkg

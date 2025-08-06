@@ -1,0 +1,72 @@
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+-- Found my_robot_interfaces: 0.0.0 (/home/dongwon_serer/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/dongwon_serer/ros_ws/build/my_cpp_pkg
+[35m[1mConsolidate compiler generated dependencies of target my_node[0m
+[35m[1mConsolidate compiler generated dependencies of target add_two_ints_client_no_oop[0m
+[35m[1mConsolidate compiler generated dependencies of target add_two_ints_client[0m
+[35m[1mConsolidate compiler generated dependencies of target add_two_ints_server[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/hardware_status_publisher.dir/src/hardware_status_publisher.cpp.o[0m
+[ 50%] Built target add_two_ints_client_no_oop
+[ 50%] Built target add_two_ints_server
+[ 70%] Built target my_node
+[ 90%] Built target add_two_ints_client
+[01m[K/home/dongwon_serer/ros_ws/src/my_cpp_pkg/src/hardware_status_publisher.cpp:25:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+   25 |   rclcpp::Publisher<[01;31m[Kstd_msgs[m[K::msg::String>::SharedPtr publisher_;
+      |                     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/dongwon_serer/ros_ws/src/my_cpp_pkg/src/hardware_status_publisher.cpp:25:42:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   25 |   rclcpp::Publisher<std_msgs::msg::String[01;31m[K>[m[K::SharedPtr publisher_;
+      |                                          [01;31m[K^[m[K
+[01m[K/home/dongwon_serer/ros_ws/src/my_cpp_pkg/src/hardware_status_publisher.cpp:25:45:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   25 |   rclcpp::Publisher<std_msgs::msg::String>::[01;31m[KSharedPtr[m[K publisher_;
+      |                                             [01;31m[K^~~~~~~~~[m[K
+      |                                                      [32m[K;[m[K
+[01m[K/home/dongwon_serer/ros_ws/src/my_cpp_pkg/src/hardware_status_publisher.cpp:25:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   25 |   rclcpp::Publisher<std_msgs::msg::String>::SharedPtr [01;31m[Kpublisher_[m[K;
+      |                                                       [01;31m[K^~~~~~~~~~[m[K
+      |                                                       [32m[Krmw_publisher_t[m[K
+[01m[K/home/dongwon_serer/ros_ws/src/my_cpp_pkg/src/hardware_status_publisher.cpp:[m[K In constructor ‘[01m[KHardwareStatusPublisherNode::HardwareStatusPublisherNode()[m[K’:
+[01m[K/home/dongwon_serer/ros_ws/src/my_cpp_pkg/src/hardware_status_publisher.cpp:9:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+    9 |     [01;31m[Kpublisher_[m[K = this->create_publisher<my_robot_interfaces::msg::HardwareStatus>("hardware_status", 10);
+      |     [01;31m[K^~~~~~~~~~[m[K
+      |     [32m[Krmw_publisher_t[m[K
+[01m[K/home/dongwon_serer/ros_ws/src/my_cpp_pkg/src/hardware_status_publisher.cpp:12:47:[m[K [01;31m[Kerror: [m[K‘[01m[KpublishHarddwareStatus[m[K’ is not a member of ‘[01m[KHardwareStatusPublisherNode[m[K’
+   12 |       std::bind(&HardwareStatusPublisherNode::[01;31m[KpublishHarddwareStatus[m[K, this)
+      |                                               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dongwon_serer/ros_ws/src/my_cpp_pkg/src/hardware_status_publisher.cpp:[m[K In member function ‘[01m[Kvoid HardwareStatusPublisherNode::publishHardwareStatus()[m[K’:
+[01m[K/home/dongwon_serer/ros_ws/src/my_cpp_pkg/src/hardware_status_publisher.cpp:23:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   23 |     [01;31m[Kpublisher_[m[K->publish(msg);
+      |     [01;31m[K^~~~~~~~~~[m[K
+      |     [32m[Krmw_publisher_t[m[K
+[01m[K/home/dongwon_serer/ros_ws/src/my_cpp_pkg/src/hardware_status_publisher.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/dongwon_serer/ros_ws/src/my_cpp_pkg/src/hardware_status_publisher.cpp:32:33:[m[K [01;31m[Kerror: [m[K‘[01m[KMinimalPublisher[m[K’ was not declared in this scope
+   32 |   rclcpp::spin(std::make_shared<[01;31m[KMinimalPublisher[m[K>());
+      |                                 [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dongwon_serer/ros_ws/src/my_cpp_pkg/src/hardware_status_publisher.cpp:32:50:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+   32 |   rclcpp::spin([01;31m[Kstd::make_shared<MinimalPublisher>()[m[K);
+      |                [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/dongwon_serer/ros_ws/src/my_cpp_pkg/src/hardware_status_publisher.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+  875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/dongwon_serer/ros_ws/src/my_cpp_pkg/src/hardware_status_publisher.cpp:32:50:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   32 |   rclcpp::spin([01;31m[Kstd::make_shared<MinimalPublisher>()[m[K);
+      |                [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+gmake[2]: *** [CMakeFiles/hardware_status_publisher.dir/build.make:76: CMakeFiles/hardware_status_publisher.dir/src/hardware_status_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/hardware_status_publisher.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
